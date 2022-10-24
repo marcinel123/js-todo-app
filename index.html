@@ -20,12 +20,13 @@
       </section>
 
       <section class="create-todo">
-        <form>
+        <form id="new-todo-form">
           <h4>Add your next todo!</h4>
           <input
             type="text"
             id="todo-content"
             placeholder="your next todo..."
+            name="content"
           />
 
           <h4>Select your category.</h4>
@@ -57,8 +58,8 @@
 
       <section class="todo-list">
         <h3>TODO LIST!</h3>
-        <div class="list">
-          <div class="todo-item">
+        <div class="list" id="todo-list">
+          <!-- <div class="todo-item">
             <label>
               <input type="checkbox" />
               <span class="checkbox personal"></span>
@@ -72,7 +73,7 @@
               <button class="edit">Edit</button>
               <button class="delete">Delete</button>
             </div>
-          </div>
+          </div> -->
         </div>
       </section>
     </main>

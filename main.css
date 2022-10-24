@@ -55,7 +55,7 @@ h4 {
 
 .create-todo input[type="text"] {
     display: block;
-    width: 80%;
+    width: 100%;
     font-size: 1.2rem;
     padding: 1rem 1.5rem;
     color: var(--dark);
@@ -208,6 +208,11 @@ input:checked ~ .checkbox::after {
 .buttons .delete {
     margin-right: 0.5rem;
     background-color: var(--danger);
+}
+
+.todo-item.done .todo-content input {
+    text-decoration: line-through;
+    color: var(--grey);
 }
 
 
